@@ -29,7 +29,7 @@ touch "%LOGFILE%"
 
 echo Debut de traitement 2>&1 | tee -a "%LOGFILE%"
 
-cd "C:\Users\rguillor\Documents\GitHub\"
+rem cd "C:\Users\rguillor\Documents\GitHub\"
 python mdp.py 2>&1 | tee -a "%LOGFILE%"
 
 pause
